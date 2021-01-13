@@ -1,0 +1,144 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+}
+
+.color-1{
+    background-color:#FFFFF4;
+}
+
+.green-1{
+    color:#76C27E;
+}
+.nave-blue{
+    color:#363958;
+}
+.btn-blue-bg{
+    background-color:#2A1E59;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing:1px;
+}
+
+.title-font{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing:2px;
+}
+
+.font-w-1{
+    font-weight:600;
+}
+
+.img78x82{
+    width:78px;
+    height:82px;
+    
+}
+
+.img80x80{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+.img226x226{
+    width:226px;
+    height:226px;
+}
+
+.list-tips{
+    border:none;
+    border-radius:.7rem;
+}
+
+
+
+.descript-img{
+    width:380px;
+    height:380px;
+}
+
+.text-color-1{
+    color:#363958;
+}
+.text-color-2{
+    color:#3E3E3E;
+}
+
+.font-1{
+    font-size:24px;
+}
+
+.weight-1{
+    font-weight:800;
+}
+
+.side-img{
+    width:500px;
+    height:300px;
+}
+
+.card-foot{
+    background:none;
+    border:none;
+}
+
+.bg-1{
+    background-color:#F1F1F1;
+}
+.rounded-7{
+    border-radius:.8rem;
+}
+
+.star-1{
+    color:rgb(240, 210, 42);
+}
+.star-2{
+    color:gray;
+}
+
+.card-review{
+    border:none;
+    border-top-right-radius:1.8rem;
+    border-bottom-left-radius:1.8rem;
+    transition:.5s;
+}
+
+.card-review:hover{
+    transform:scale(.8);
+}
+
+.footer{
+    height:200px;
+    background-color:rgb(68, 52, 52);
+}
+
+.social-link{
+    margin:10px;
+    padding:10px;
+    color:white;
+    font-size:20px;
+    transition:.5s ease-in-out;
+}
+
+.social-link:hover{
+    color:hotpink;
+}
+
+.footer-text{
+    color:white;
+    font-weight: 500;
+    margin:10px;
+}
+
+/* for make footer responsive */
+@media (max-width:560px){
+    .footer{
+        text-align:center;
+    }
+}
