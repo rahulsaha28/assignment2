@@ -138,6 +138,12 @@ body{
 
 /* for make footer responsive */
 @media (max-width:560px){
+
+    .list-tips-part, .main-section{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
     .footer{
         text-align:center;
     }
